@@ -1,0 +1,93 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch blog posts from sitemap
+        id: blog
+        run: |
+          SITEMAP_URL="https://juliusjoska.cz/sitemap.xml"
+          BLOG_CONTENT=""
+
+          # Pokus o stazeni sitemapy a extrahovani blog URL
+          if SITEMAP=$(curl -sf --max-time 10 "$SITEMAP_URL" 2>/dev/null); then
+            BLOG_URLS=$(echo "$SITEMAP" | grep -oP '<loc>\K[^<]*blog[^<]*' | head -3)
+
+            if [ -n "$BLOG_URLS" ]; then
+              BLOG_CONTENT="## Blog\n\n"
+              while IFS= read -r url; do
+                # Extrahuj nazev z URL (posledni segment)
+                SLUG=$(echo "$url" | sed 's|.*/||' | sed 's/-/ /g' | sed 's/.*/\u&/')
+                BLOG_CONTENT+="- [$SLUG]($url)\n"
+              done <<< "$BLOG_URLS"
+            fi
+          fi
+
+          # Fallback pokud zadne blog posty
+          if [ -z "$BLOG_CONTENT" ]; then
+            BLOG_CONTENT="## Blog\n\n> Zatim zadne prispevky. Sleduj [juliusjoska.cz](https://juliusjoska.cz) pro novinky."
+          fi
+
+          # Uloz do souboru (multiline output)
+          echo "$BLOG_CONTENT" > /tmp/blog_section.txt
+
+      - name: Update dynamic sections
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          BLOG_CONTENT=$(cat /tmp/blog_section.txt)
+
+          # Aktualizuj BLOG sekci
+          python3 << 'PYEOF'
+          import re
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          # Nacti blog obsah
+          with open("/tmp/blog_section.txt", "r") as f:
+              blog = f.read().strip()
+
+          # Nahrad BLOG sekci
+          content = re.sub(
+              r'<!-- BLOG-START -->.*?<!-- BLOG-END -->',
+              f'<!-- BLOG-START -->\n{blog}\n<!-- BLOG-END -->',
+              content,
+              flags=re.DOTALL
+          )
+
+          # Nahrad UPDATED sekci
+          import datetime
+          today = datetime.date.today().isoformat()
+          content = re.sub(
+              r'<!-- UPDATED-START -->.*?<!-- UPDATED-END -->',
+              f'<!-- UPDATED-START -->\n*Posledni aktualizace: {today}*\n<!-- UPDATED-END -->',
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as f:
+              f.write(content)
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: automaticka aktualizace README [$(date +%Y-%m-%d)]"
+            git push
+          else
+            echo "Zadne zmeny k commitnuti."
+          fi

@@ -1,10 +1,11 @@
-# Ahoj, jsem Julius Joska 👋
+# Ahoj, jsem Julius Joska
 
 **Full-Stack Developer & IT Architect** | Zakladatel [ajtak.it](https://ajtak.it)
 
-Navrhuji a stavím SaaS aplikace, spravuji self-hosted infrastrukturu a automatizuji vše, co jde. Sídlím v Česku.
+Navrhuji a stavim SaaS aplikace, spravuji self-hosted infrastrukturu a automatizuji vse, co jde. Sidlim v Cesku.
 
-🌐 **Portfolio:** [juliusjoska.cz](https://juliusjoska.cz)
+[![Portfolio](https://img.shields.io/badge/juliusjoska.cz-7c3aed?style=for-the-badge&logo=google-chrome&logoColor=white)](https://juliusjoska.cz)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:juliusjoska@protonmail.com)
 
 ---
 
@@ -12,15 +13,16 @@ Navrhuji a stavím SaaS aplikace, spravuji self-hosted infrastrukturu a automati
 
 | Projekt | Popis | Web |
 |---------|-------|-----|
-| **CraftIO** | CRM pro řemeslníky a malé firmy | [craftio.ajtak.it](https://craftio.ajtak.it) |
-| **Dentiqa** | SaaS pro zubní ordinace | [dentiqa.ajtak.it](https://dentiqa.ajtak.it) |
-| **Šepot** | E2E šifrovaný messenger | [sepot.cz](https://sepot.cz) |
-| **Tastly** | Receptová aplikace s AI asistentem | [tastly.cz](https://tastly.cz) |
-| **Moje Obec** | SaaS pro obce a města | [moje-obec.cz](https://moje-obec.cz) |
-| **EduConnect** | Školní informační systém | [educonnect.ajtak.it](https://educonnect.ajtak.it) |
+| **CraftIO** | CRM pro remeslniky a male firmy | [craftio.ajtak.it](https://craftio.ajtak.it) |
 | **Beamcast** | Digital signage SaaS | [beamcast.ajtak.it](https://beamcast.ajtak.it) |
+| **Dentiqa** | SaaS pro zubni ordinace | [dentiqa.ajtak.it](https://dentiqa.ajtak.it) |
+| **Sepot** | E2E sifrovany messenger | [sepot.cz](https://sepot.cz) |
+| **Tastly** | Receptova aplikace s AI asistentem | [tastly.cz](https://tastly.cz) |
+| **Moje Obec** | SaaS pro obce a mesta | [moje-obec.cz](https://moje-obec.cz) |
+| **EduConnect** | Skolni informacni system | [educonnect.ajtak.it](https://educonnect.ajtak.it) |
+| **TruhlarPRO** | SaaS pro truhlare | [truhlarpro.cz](https://truhlarpro.cz) |
 
-### B2B marketingové weby
+### B2B marketingove weby
 
 [firemnisoft.cz](https://firemnisoft.cz) · [softnamiru.cz](https://softnamiru.cz) · [chciappku.cz](https://chciappku.cz) · [appkyprofirmy.cz](https://appkyprofirmy.cz) · [weboffka.cz](https://weboffka.cz) · [vyvinuto.cz](https://vyvinuto.cz) · [vyvojaplikacinamiru.cz](https://vyvojaplikacinamiru.cz) · [vernostniaplikace.cz](https://vernostniaplikace.cz)
 
@@ -40,22 +42,37 @@ Navrhuji a stavím SaaS aplikace, spravuji self-hosted infrastrukturu a automati
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=node.js&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=flat-square&logo=shadcnui&logoColor=white)
 
 ---
 
 ## Homelab
 
-- **2× Proxmox node** (Intel i5 + AMD Ryzen 5 PRO, 48 GB RAM celkem)
-- **25+ LXC/VM kontejnerů** — monitoring, media, produktivita, vývoj
-- **15+ live webů** za Cloudflare Tunnel
-- **Self-hosted:** Supabase, Gitea, Grafana, Prometheus, Jellyfin, Nextcloud, Home Assistant a další
+- **2x Proxmox node** (Intel i5 + AMD Ryzen 5 PRO, 48 GB RAM celkem)
+- **25+ LXC/VM kontejneru** — monitoring, media, produktivita, vyvoj
+- **15+ live webu** za Cloudflare Tunnel
+- **Self-hosted:** Supabase, Gitea, Grafana, Prometheus, Jellyfin, Nextcloud, Home Assistant
 - **Automatizace:** N8N, Ansible, Terraform, CI/CD
+
+---
+
+<!-- BLOG-START -->
+## Blog
+
+> Zatim zadne prispevky. Sleduj [juliusjoska.cz](https://juliusjoska.cz) pro novinky.
+<!-- BLOG-END -->
 
 ---
 
 ## Kontakt
 
-- 🌐 [juliusjoska.cz](https://juliusjoska.cz)
-- 📧 juliusjoska@protonmail.com
-- 🏢 [ajtak.it](https://ajtak.it)
-- 💼 [GitHub](https://github.com/juliusjoska)
+- [juliusjoska.cz](https://juliusjoska.cz)
+- [juliusjoska@protonmail.com](mailto:juliusjoska@protonmail.com)
+- [ajtak.it](https://ajtak.it)
+
+---
+
+<!-- UPDATED-START -->
+*Posledni aktualizace: 2026-02-14*
+<!-- UPDATED-END -->
