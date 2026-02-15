@@ -60,7 +60,10 @@ Navrhuji a stavim SaaS aplikace, spravuji self-hosted infrastrukturu a automatiz
 <!-- BLOG-START -->
 ## Blog
 
-> Zatim zadne prispevky. Sleduj [juliusjoska.cz](https://juliusjoska.cz) pro novinky.
+- [Blog](https://juliusjoska.cz/blog)
+- [9 saas produktu za rok](https://juliusjoska.cz/blog/9-saas-produktu-za-rok)
+- [Muj tech stack 2026](https://juliusjoska.cz/blog/muj-tech-stack-2026)
+
 <!-- BLOG-END -->
 
 ---
@@ -74,5 +77,5 @@ Navrhuji a stavim SaaS aplikace, spravuji self-hosted infrastrukturu a automatiz
 ---
 
 <!-- UPDATED-START -->
-*Posledni aktualizace: 2026-02-14*
+*Posledni aktualizace: 2026-02-15*
 <!-- UPDATED-END -->
