@@ -4,7 +4,9 @@
 
 Navrhuji a stavim SaaS aplikace, spravuji self-hosted infrastrukturu a automatizuji vse, co jde. Sidlim v Cesku.
 
-[![Portfolio](https://img.shields.io/badge/juliusjoska.cz-7c3aed?style=for-the-badge&logo=google-chrome&logoColor=white)](https://juliusjoska.cz)
+[![Portfolio CZ](https://img.shields.io/badge/juliusjoska.cz-7c3aed?style=for-the-badge&logo=google-chrome&logoColor=white)](https://juliusjoska.cz)
+[![Portfolio EN](https://img.shields.io/badge/juliusjoska.dev-06b6d4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://juliusjoska.dev)
+[![ajtak.it](https://img.shields.io/badge/ajtak.it-F97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ajtak.it)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:juliusjoska@protonmail.com)
 
 ---
