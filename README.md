@@ -79,5 +79,5 @@ Navrhuji a stavim SaaS aplikace, spravuji self-hosted infrastrukturu a automatiz
 ---
 
 <!-- UPDATED-START -->
-*Posledni aktualizace: 2026-03-02*
+*Posledni aktualizace: 2026-03-03*
 <!-- UPDATED-END -->
