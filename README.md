@@ -91,5 +91,5 @@ Stavím SaaS produkty, mobilní aplikace a enterprise řešení. 7+ let v IT, 11
 ---
 
 <!-- UPDATED-START -->
-*Posledni aktualizace: 2026-03-10*
+*Posledni aktualizace: 2026-03-11*
 <!-- UPDATED-END -->
