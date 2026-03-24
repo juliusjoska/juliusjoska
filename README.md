@@ -74,8 +74,8 @@ Stavím SaaS produkty, mobilní aplikace a enterprise řešení. 7+ let v IT, 11
 ## Blog
 
 - [Blog](https://juliusjoska.cz/blog)
-- [9 saas produktu za rok](https://juliusjoska.cz/blog/9-saas-produktu-za-rok)
-- [Muj tech stack 2026](https://juliusjoska.cz/blog/muj-tech-stack-2026)
+- [Kolik stoji mobilni aplikace](https://juliusjoska.cz/blog/kolik-stoji-mobilni-aplikace)
+- [Software na miru vs krabicove reseni](https://juliusjoska.cz/blog/software-na-miru-vs-krabicove-reseni)
 
 <!-- BLOG-END -->
 
@@ -91,5 +91,5 @@ Stavím SaaS produkty, mobilní aplikace a enterprise řešení. 7+ let v IT, 11
 ---
 
 <!-- UPDATED-START -->
-*Posledni aktualizace: 2026-03-23*
+*Posledni aktualizace: 2026-03-24*
 <!-- UPDATED-END -->
