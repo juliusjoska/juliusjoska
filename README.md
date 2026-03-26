@@ -27,10 +27,10 @@ Founder of **[ajtak.it](https://ajtak.it)** — freelance software development &
 | **CraftIO** | CRM for craftsmen & SMBs — multi-tenant, 51 RLS policies, Stripe billing | Next.js 16 · Supabase · Flutter · shadcn/ui |
 | **Beamcast** | Digital signage platform — PWA player with offline mode, content scheduling | Next.js 16 · Supabase · PWA |
 | **ZAP** | Loyalty system for retail chain — PVA BOSS SOAP integration, mutual TLS | Flutter · Supabase · Node.js |
-| **[Šepot](https://github.com/juliusjoska/sepot)** | E2E encrypted messenger — X25519 key exchange, XSalsa20 cipher | Rust · open source |
+| **[Sepot](https://github.com/juliusjoska/sepot)** | E2E encrypted messenger — X25519 key exchange, XSalsa20 cipher | Rust · open source |
 | **Tastly** | Recipe platform with AI assistant — gamification, meal planning | Next.js 15 · Flutter · Supabase |
 | **SVJko** | HOA management — voting, documents, maintenance tracking | Next.js 16 · Supabase · Flutter |
-| **ajtak-eshop** | White-label e-shop — CZ/SK payment gateways, Heureka/Zboží feeds | Next.js 16 · Supabase · Stripe |
+| **ajtak-eshop** | White-label e-shop — CZ/SK payment gateways, Heureka/Zbozi feeds | Next.js 16 · Supabase · Stripe |
 | **TruhlarPRO** | SaaS for carpenters — guillotine cut optimization algorithm | Next.js · Supabase |
 
 <sup>Most projects are in private repositories.</sup>
@@ -87,6 +87,8 @@ Founder of **[ajtak.it](https://ajtak.it)** — freelance software development &
 
 ## Infrastructure
 
+> Full documentation: **[juliusjoska/homelab](https://github.com/juliusjoska/homelab)**
+
 ```
 2x Proxmox nodes (Intel i5 + AMD Ryzen 5 PRO) · 48 GB RAM
 ├── 25+ LXC/VM containers
@@ -108,9 +110,11 @@ Founder of **[ajtak.it](https://ajtak.it)** — freelance software development &
 
 | Repository | Description |
 |:-----------|:------------|
+| **[homelab](https://github.com/juliusjoska/homelab)** | Full homelab documentation — architecture, services, networking, backups |
 | **[sepot](https://github.com/juliusjoska/sepot)** | Privacy-first messenger with E2E encryption (Rust) |
 | **[docker-homelab-templates](https://github.com/juliusjoska/docker-homelab-templates)** | Production-ready Docker Compose templates for self-hosting |
 | **[nextjs-saas-starter](https://github.com/juliusjoska/nextjs-saas-starter)** | Next.js 16 SaaS boilerplate — Supabase, Stripe, shadcn/ui |
+| **[dotfiles](https://github.com/juliusjoska/dotfiles)** | Dev environment — shell, git, SSH, vim, scripts |
 
 ---
 
